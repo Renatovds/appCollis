@@ -1,0 +1,12 @@
+{
+  "name": "collisapp",
+  "displayName": "collisapp",
+  "expo": {
+    "name": "collisapp",
+    "slug": "collisapp",
+    "version": "1.0.7",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
