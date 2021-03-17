@@ -39,7 +39,7 @@ export const TitleBills = styled.Text`
 export const NoBillsText = styled.Text`
   font-family: 'Roboto-Medium';
   font-size: ${widthPercentageToDP('5%').toFixed(0)}px;
-  margin-left: ${widthPercentageToDP('2%').toFixed(0)}px;
+  margin-left: ${widthPercentageToDP('4%').toFixed(0)}px;
 `;
 
 export const BillsContainer = styled.TouchableOpacity`
