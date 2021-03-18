@@ -146,7 +146,7 @@ const Dashboard: React.FC = ({ navigation }) => {
               initialHeight={
                 smallPhone
                   ? Number((screenHeigth * 0.18).toFixed(0))
-                  : Number((screenHeigth * 0.15).toFixed(0))
+                  : Number((screenHeigth * 0.16).toFixed(0))
               }
               initialStatus="opened"
             >
@@ -209,7 +209,7 @@ const Dashboard: React.FC = ({ navigation }) => {
                     initialHeight={
                       smallPhone
                         ? Number((screenHeigth * 0.18).toFixed(0))
-                        : Number((screenHeigth * 0.15).toFixed(0))
+                        : Number((screenHeigth * 0.16).toFixed(0))
                     }
                   >
                     <BondView>
@@ -239,11 +239,7 @@ const Dashboard: React.FC = ({ navigation }) => {
           <CardSideSpan
             icon="phone"
             iconSize={Number((screenWidth * 0.06).toFixed(0))}
-            initialWidth={
-              smallPhone
-                ? Number((screenWidth * 0.16).toFixed(0))
-                : Number((screenWidth * 0.17).toFixed(0))
-            }
+            initialWidth={Number((screenWidth * 0.16).toFixed(0))}
           >
             {company?.whatsapp ? (
               <Icon
